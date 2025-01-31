@@ -1,5 +1,7 @@
 obj-$(CONFIG_NET_DSA_MV88E6060) += mv88e6060.o
 obj-$(CONFIG_NET_DSA_MV88E6XXX) += mv88e6xxx_drv.o
+obj-$(CONFIG_I2C_KSZ8863) += i2c-ksz8863.o
+obj-$(CONFIG_SPI_KSZ8863) += spi-ksz8863.o
 mv88e6xxx_drv-y += mv88e6xxx.o
 ifdef CONFIG_NET_DSA_MV88E6123_61_65
 mv88e6xxx_drv-y += mv88e6123_61_65.o
